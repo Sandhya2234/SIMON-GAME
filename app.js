@@ -67,13 +67,11 @@ for(btn of AllBtns){
 }
 
 function btnPress(){
-    // console.log(this);
     let btn=this;
     btnFlash(btn);
     let userColor=btn.getAttribute("id");
     
     userSeq.push(userColor);
-    // console.log(userSeq);
 
     checkAns(userSeq.length-1);
   
